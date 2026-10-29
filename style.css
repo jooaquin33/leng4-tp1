@@ -1,0 +1,64 @@
+body {
+    background-color: #fdf5e6; /* Color de fondo crema */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #f4ecdc; /* Color de la tarjeta */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0078d7; /* Azul tipo Windows/Google */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
